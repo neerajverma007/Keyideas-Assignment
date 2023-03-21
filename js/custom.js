@@ -4,9 +4,9 @@ I want to assure you that I did my best to complete the circular slider part, bu
 I have included the code that I was able to write.//
 I understand the importance of completing this task, and I want to assure you that I am taking steps to address this issue.
 __________________________________________________________________________________________________________________________________________________________________
-*/
 
-/* const rects = document.querySelectorAll(".rCon")
+
+const rects = document.querySelectorAll(".rCon")
 rects.forEach(rect => rect.addEventListener("click", rightClick));
 function rightClick() {
   if (this.classList.contains("v")) return;
@@ -62,4 +62,5 @@ function getAngle(str) {
     return parseInt(value);
   }
   return null
-} */
+} 
+*/
