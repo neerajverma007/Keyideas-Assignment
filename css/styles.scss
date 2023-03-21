@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.rCon {
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    transform-origin: 50% 100%;
+    left: 50%;
+    transition: 1s;
+
+    &.v {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+.clicked {
+    &.v {
+        height: 500px;
+        transform: translateX(-50%) rotate(-90deg);
+    }
+
+    &.l {
+        transform: translateX(-50%) rotate(-270deg);
+        height: 500px;
+    }
+
+    &.r {
+        transform: translateX(-50%) rotate(0deg);
+        height: 400px;
+    }
+}
