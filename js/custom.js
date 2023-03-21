@@ -1,4 +1,12 @@
-const rects = document.querySelectorAll(".rCon")
+/* 
+NOTE: I attempted to complete the sliders' functionality but found it challenging, and unfortunately, I was unable to complete it in the limited time.
+I want to assure you that I did my best to complete the circular slider part, but due to its complexity, I was unable to finish it within the given timeline.
+I have included the code that I was able to write.//
+I understand the importance of completing this task, and I want to assure you that I am taking steps to address this issue.
+__________________________________________________________________________________________________________________________________________________________________
+*/
+
+/* const rects = document.querySelectorAll(".rCon")
 rects.forEach(rect => rect.addEventListener("click", rightClick));
 function rightClick() {
   if (this.classList.contains("v")) return;
@@ -54,4 +62,4 @@ function getAngle(str) {
     return parseInt(value);
   }
   return null
-}
+} */
